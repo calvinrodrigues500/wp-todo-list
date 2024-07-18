@@ -1,0 +1,17 @@
+{
+    "name": "calvin/wp-todo-list",
+    "description": "A todo list for WP admin and authorized users",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "Calvin\\WpTodoList\\": "includes/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Calvin",
+            "email": "calvinrodrigues500@gmail.com"
+        }
+    ],
+    "require": {}
+}

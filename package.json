@@ -1,0 +1,24 @@
+{
+  "name": "wp-todo-list",
+  "version": "1.0.0",
+  "description": "A todo list for WP admin and authorized users",
+  "main": "index.js",
+  "scripts": {
+    "start": "wp-scripts start",
+    "build": "wp-scripts build",
+    "format": "wp-scripts format",
+    "lint:css": "wp-scripts lint-style",
+    "lint:js": "wp-scripts lint-js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Calvin Rodrigues",
+  "license": "ISC",
+  "devDependencies": {
+    "@wordpress/scripts": "^28.2.0",
+    "babel-loader": "^9.1.3"
+  },
+  "dependencies": {
+    "@wordpress/components": "^27.6.0",
+    "@wordpress/data": "^10.2.0"
+  }
+}
